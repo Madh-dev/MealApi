@@ -1,0 +1,26 @@
+img{
+    margin: 20px;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+p{
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    align-items: center;
+
+}
+nav a{
+    text-decoration: none; 
+    margin-left: 500px;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav h1{
+    margin-left: 20px;
+}
+.row{
+    margin-top: 50px;
+}
