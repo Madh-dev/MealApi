@@ -18,7 +18,7 @@ useEffect(()=>{
     const itemLists = items.map( (item) => {
         return <div className='col-md-4'>
             <p>{item.strMeal}</p>
-            <img src={item.strMealThumb}  className='img-fluid' alt='image'/>
+            <img src={item.strMealThumb}  className='img-fluid' alt=''/>
             <p> {item.idMeal}</p>
 
         </div>
