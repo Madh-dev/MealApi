@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
+// import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
 import './body.css'
 function Body() {
 
@@ -18,7 +18,7 @@ useEffect(()=>{
     const itemLists = items.map( (item) => {
         return <div className='col-md-4'>
             <p>{item.strMeal}</p>
-            <img src={item.strMealThumb}  className='img-fluid'/>
+            <img src={item.strMealThumb}  className='img-fluid' alt='image'/>
             <p> {item.idMeal}</p>
 
         </div>
